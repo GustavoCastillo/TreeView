@@ -2,7 +2,8 @@
 `npm i`
 
 ## start
+`npm i`
 `npm start`
 
 ## run tests
-`npm test`# TreeView no
+`npm test`# TreeView 
