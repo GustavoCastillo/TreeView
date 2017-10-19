@@ -1,0 +1,87 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: #428bca;
+}
+
+.wrapper{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #FFF;
+  min-height: 50%;
+  padding: 0.5em 1em 0.5em 1em;
+}
+h1{
+  text-align: center;
+  background-color: #fff;
+  margin: 0;
+  height: 3em;
+  line-height: 3em;
+  border-bottom: 1px solid;
+}
+span {
+  color: #428bca;
+  position: relative;
+  display: block;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+ul{
+  padding-left: 0;
+}
+ul,li{
+  list-style: none;
+  position: relative;
+  
+}
+ul > li {
+  padding-left: 40px;
+}
+.data {
+  color: #000;
+  cursor: pointer;
+}
+
+.showData::after,
+.hideData::after {
+  font-size: 8px;
+  margin-left: 0.5em;
+}
+
+.showData::before {
+  border: 1px solid black;
+  content: "-";
+  cursor: pointer;
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  margin-right: 0.5em;
+  color: #000;
+  position: absolute;
+  top: 0.6em;
+  left: 1em;
+}
+
+.hideData::before {
+  border: 3px solid black;
+  content: "+";
+  cursor: pointer;
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  margin-right: 0.5em;
+  color: #000;
+  position: absolute;
+  top: 0.6em;
+  left: 1em;
+}
+.showData li{
+  display: block;
+}
+
+.hideData li{
+  display: none;
+}
