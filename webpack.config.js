@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     hot: true,
     inline: true,
-    port: 5000,
+    port: 7700,
     historyApiFallback: true,
   },
   resolve: {
@@ -18,7 +18,7 @@ module.exports = {
   output: {
     path: path.resolve(buildDirectory),
     filename: 'app.js',
-    publicPath: 'https://tree-view-react.herokuapp.com',
+    publicPath: 'http://localhost:7700/dist',
   },
   externals: {
     'react/lib/ExecutionEnvironment': true,
