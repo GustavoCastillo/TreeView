@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     hot: true,
     inline: true,
-    port: 5000,
+    port: 7700,
     historyApiFallback: true,
   },
   resolve: {
