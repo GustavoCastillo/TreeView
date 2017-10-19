@@ -18,7 +18,7 @@ module.exports = {
   output: {
     path: path.resolve(buildDirectory),
     filename: 'app.js',
-    publicPath: 'https://tree-view-react.herokuapp.com/dist',
+    publicPath: 'https://tree-view-react.herokuapp.com',
   },
   externals: {
     'react/lib/ExecutionEnvironment': true,
